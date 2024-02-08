@@ -1,12 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
-}
+    box-sizing: border-box;
+    }
 main    {
     max-width: 840;
 }
