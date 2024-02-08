@@ -1,9 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
 main    {
     max-width: 840;
 }
 
 aside    {
-    width: 20rem;
+    width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
     padding: 1rem;
@@ -20,6 +29,7 @@ aside img  {
 main img  {
     width: 150px;
     height: auto;
+    float: right;
 
 }
 
@@ -28,4 +38,17 @@ footer  {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* class selectors r*/
+.box {
+margin: 1rem;
+border: 1px solid rgba(0, 0, 0, .1);
+padding: 1rem;
+background-color: #ddd;
+color: #000;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
