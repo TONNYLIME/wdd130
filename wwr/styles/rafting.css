@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
 :root {
  --primary-color: hsl(240, 6%, 93%);/*#1E0BDD*/
  --secondary-color: #F128F7;
@@ -5,7 +6,6 @@
  --accent2-color: #7699d4;
  --heading-font: "Oswald";
 --body-font: "Noto Sans"; 
-
 }
 header {
     margin: 1rem auto;
@@ -14,11 +14,6 @@ header {
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
 	align-items: center;
-
-    
-    
-	
-
 }
 
 .logo {
@@ -61,8 +56,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: blue;
-    /*color: var(--primary-color);*/
+    color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -112,7 +106,7 @@ h1 {
     width: 840px;
     text-align: center;
     opacity: 0.5;
-    background-color: /*var(--accent2-color)*/blue;
+    background-color: var(--accent2-color);
     color: blue;
     
  }
@@ -130,10 +124,7 @@ h1 {
     margin-bottom: 5px;
  }
  
- .pic {
-    text-align: center; /* centers the heading and images */
-    padding: 20px;
-}
+ 
 
 .pic h2 {
     margin-bottom: 20px; /* space between heading and images */
@@ -150,6 +141,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .pic-row {
