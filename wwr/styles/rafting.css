@@ -73,7 +73,8 @@ nav, p, section, article {
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-	align-items: center
+	align-items: center;
+    width: 840px;
 
 }
 .fit {
@@ -97,11 +98,10 @@ footer{
 }
 
 h1 {
-    position: absolute;
-    top: 5px;
-    width: 30%;
-    padding: 16px;
+    /*position: absolute;*/
+    padding: 5px;
     text-align: center;
+    justify-content: space-around;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
@@ -113,17 +113,21 @@ h1 {
     text-align: center;
     opacity: 0.5;
     background-color: /*var(--accent2-color)*/blue;
-    color: #fff;
+    color: blue;
     
+ }
+ .un {
+    margin-top: 30px;
  }
  .hero article img {
     float: right;
     width: 125px;
     margin: auto;
  }
- section {
-    display: block;
-    
+ .histo {
+    display: inline-block;
+    margin-top: 220px;
+    margin-bottom: 5px;
  }
  
  .pic {
