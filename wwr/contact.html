@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TONNY LUMWAJI LIME | WWD130 | WWR/contact us</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="../week05/styles/contact.css">
     <meta name="description" content="Water Rafting contact page | wdd130 ">
     <meta name="author" content="Tonny Lumwaji Lime">
     <link rel="preconnect" href="https://fonts.google.com/specimen/Oswald">
@@ -12,8 +12,8 @@
 </head>
 <body>
     <header>
-        <img src="images/rafting.logo.jpg" alt="a logo showing people rowing" width="100" class="logo">
-        <nav >
+        <div class="logo"><img src="./images/rafting.logo.jpg" alt="a logo showing people rowing" width="100"></div>
+        <nav>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -23,37 +23,69 @@
         </nav>
     </header>
     <main>
-        <div class="hero" >
-            
-            
-            <article style="background-image: url('./images/rafting1.webp')">
-                <h1>
-                    Lime Water Rafting
-                </h1>
-                <img src="images/rafting2.webp" alt="a happy rafting employees">
-                <p  class="un">At Lime Water Rafting our mission is to build a culture that <br>
-                discover talents in rafting by providing rafting activites that will make <br>
-                individuals participate and practise. Guided by our creed—"Velocitize <br>
-                 the future, empower the now". Our purpose is bring water rafting came home <br>
-                with or mottor "Yes we can This Is Kenya"</p>
-            </article>
+        <div class="container">
+    <h1>Contact Information</h1>
+
+    <div class="contact-info">
+        <p><strong>Address:</strong>Jogoo rd,Makongeni,Ojimbo A3 Ebeneza</p>
+        <p><strong>Email:</strong> Tonnylumwaji@yahoo.com</p>
+        <p><strong>Phone:</strong> +254712022607</p>
+        <p><strong>Facebook:</strong> Tonnylumwaji</p>
+    </div>
+    <section class="mem">
+        <h2>Members</h2>
+     <div class="images">
+        <img src="images/rafting3.webp" alt="rafting3" class="item">
+        <img src="images/rafting4.webp" alt="rafting4" class="item">
+        <img src="images/rafting5.webp" alt="rafting5" class="item">
+        
+    </div>
+    </section>
+     <form class="contact-form" action="#" method="post">
+    <fieldset>
+        <legend>Contact Us</legend>  
+        <div class="form-item column2">  
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
         </div>
-        <section class="histo">
-            <h2>History</h2>
-            <p>Lime Water Rafting was discovered in <br> July 2025  by Mr Tonny Lumwaji 
-            LIME. <br>The discovery while persuing a <br>programme at <br>
-            Byu-Idaho in WDD130 as a course</p>
-        </section>
-        <section class="pic">
-            <h2>Adventure Awaits You!</h2>
-            <div>
-            <img src="images/rafting3.webp" alt="rafting3" class="item">
-            <img src="images/rafting4.webp" alt="rafting4" class="item">
-            <img src="images/rafting5.webp" alt="rafting5" class="item">
-            <img src="images/rafting6.webp" alt="rafting6" class="item">
-            <img src="images/rafting7.webp" alt="rafting7" class="item">
-            </div>
-        </section>
+        <div class="form-column2">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+    </fieldset>
+
+    <fieldset>
+    <legend>Purpose:</legend>
+    <div class="form-item column1">
+      <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+      <label for="general">General Inquiry</label>
+    </div>
+    <div class="form-item column1">
+      <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+      <label for="reservation">Reservation Question</label>
+    </div >
+    <div class="form-item column1">
+      <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+      <label for="suggestion">Website Suggestion</label>
+    </div>
+    <div class="form-item column1">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required>
+
+    </textarea> 
+    </div>
+    <div class="form-item column1">
+      <input type="checkbox" id="newsletter" name="newsletter">
+      <label for="newsletter">Subscribe to our newsletter</label>
+    </div>
+    </fieldset>
+    <button type="submit" class="submit-button">Send Message</button>
+  </form>
+
+
+   
+</div>
+        
     </main>
     <footer>
         <p class="fit">©2025 🚗 Lime Water Rafting 🚗 Tonny Lumwaji Lime  </p>
