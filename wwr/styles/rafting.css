@@ -78,18 +78,7 @@ footer{
     padding: 10px;
 }
 
-.hero {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-image: url('./images/rafting1.webp');
-}
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 h1 {
     /*position: absolute;*/
@@ -151,3 +140,321 @@ h1 {
     gap: 15px; /* spacing between images */
 }
  
+ body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;
+        }
+*input,
+select,
+button {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+header {
+   
+      display: flex;
+      justify-content: space-between; /* push logo and nav apart */
+      align-items: center;
+      padding: 20px 40px;  /* top-bottom and left-right space */
+      background-color: #007BFF;
+      color: white;
+      width: 800px;
+      margin: auto;
+}
+nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    
+    
+}
+a{
+    color: #eee;
+    /*border: 1px solid red;*/
+    padding: .5rem;
+    
+}
+
+h1 {
+    margin: auto;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+    
+}
+form {
+    width: 280px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1 );
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2 );
+    padding: 1rem;
+
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+}
+label,
+input,
+button,
+select {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+input,
+select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+
+}
+button {
+margin: 1rem;
+   background-color: navy; 
+   color: #fff;
+   border: none;
+   border-radius: .5rem;
+   padding: .75rem;
+   font-size: 1.2rem;
+   width: 150px;
+   margin: auto;
+   align-items: center;
+}
+button:hover {
+    background-color: darkmagenta;
+}
+footer {
+      display: flex;
+      justify-content: space-between; /* push logo and nav apart */
+      align-items: center;
+      padding: 20px 40px;  /* top-bottom and left-right space */
+      background-color: #007BFF;
+      color: white;
+      width: 800px;
+      margin: auto;
+      height: 70px;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+.mem{
+    display: grid;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top: 30px;
+    width: 800px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.images img {
+    width: 30%;
+    border-radius: 5px;
+    flex: 1 1 300px;
+}
+.contact-info{
+    width: 800px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    padding: 5px;
+
+}
+.hero {
+      position: relative;
+      width: 800px;
+      height: 40vh; /* Full viewport height */
+      background-image: url('../images/rafting1.webp'); /* show  image in the background */
+      background-size: cover;
+      background-position: center;
+    }
+
+.hero h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 3rem;
+      text-align: center;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+
+}
+.grid-page {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    margin: 0 auto;
+}
+.signup-container {
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 350px;
+      margin: 2rem 0rem ;
+    }
+
+    .signup-container h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      width: 40%;
+      padding: 12px;
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #005bb5;
+    }
+    .cta-section {
+      background-color: #0073e6;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 8px;
+      max-width: 350px;
+      margin-left: auto;
+      
+    }
+
+    .cta-section h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .cta-section p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #ffffff;
+      color: #0073e6;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #005bb5;
+      color: #ffffff;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+
+    .info-item {
+      background-color: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .info-content {
+      padding: 20px;
+    }
+
+    .info-content h3 {
+      margin-top: 0;
+      color: #0073e6;
+    }
+
+    .info-content p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    @media (max-width: 600px) {
+      .info-content p {
+        font-size: 15px;
+      }
+    }

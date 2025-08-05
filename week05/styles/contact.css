@@ -115,11 +115,12 @@ footer {
       display: flex;
       justify-content: space-between; /* push logo and nav apart */
       align-items: center;
-      padding: 20px 40px;  /* top-bottom and left-right space */
+      padding: 10px 10px;  /* top-bottom and left-right space */
       background-color: #007BFF;
       color: white;
       width: 800px;
       margin: auto;
+      height: 2px;
 }
 .form-item {
     display: grid;
