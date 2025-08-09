@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
 :root {
  --primary-color: hsl(240, 6%, 93%);/*#1E0BDD*/
- --secondary-color: #F128F7;
+ --secondary-color: #e01616;
  --accent1-color: #2D9B50;
  --accent2-color: #7699d4;
  --heading-font: "Oswald";
---body-font: "Noto Sans"; 
+ --body-font: "Noto Sans"; 
 }
 header {
     margin: 1rem auto;
@@ -18,8 +18,8 @@ header {
 
 .logo {
     margin:  1rem;
-	width: 64px;
-	height: auto;
+	  width: 64px;
+	  height: auto;
 }
 .navigation {
     display: flex;
@@ -120,8 +120,8 @@ h1 {
 }
 
 .item {
-    width: 130px; /* adjust as needed */
-    height: auto;
+    width: 50px; 
+    height: 100px;
     margin: 0 10px;
     flex-direction: row;
 }
@@ -142,8 +142,10 @@ h1 {
  
  body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            margin: auto;
             background-color: #f4f4f4;
+            width: 800px;
+            
         }
 *input,
 select,
@@ -190,6 +192,7 @@ h1 {
     font-size: 1.5em;
     color: navy;
     text-align: center;
+    width: 300px;
     
 }
 form {
@@ -261,8 +264,7 @@ footer {
       background-color: #007BFF;
       color: white;
       width: 800px;
-      margin: auto;
-      height: 70px;
+      height: 150px;
 }
 .form-item {
     display: grid;
@@ -281,18 +283,18 @@ footer {
 }
 
 .images {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     gap: 3px;
     margin-top: 30px;
-    width: 800px;
+    width: 200px;
     padding: 5px;
     flex-wrap: wrap;
 }
 .images img {
-    width: 30%;
+    width: 20%;
     border-radius: 5px;
-    flex: 1 1 300px;
+    /*flex: 1 1 300px;*/
 }
 .contact-info{
     width: 800px;
@@ -453,8 +455,59 @@ footer {
       color: #333;
     }
 
-    @media (max-width: 600px) {
-      .info-content p {
-        font-size: 15px;
-      }
-    }
+    
+.cta {
+  text-align: center;
+  padding: 40px;
+  background-color: #f7f6f8;
+}
+.cta-button2 {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #033f7a;
+  color: rgb(196, 28, 28);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.trip-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  width: 800px;
+  margin: auto;
+  align-items: center;
+  background-color: #0073e6;
+}
+.trip-card {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+.trip-card img {
+  width: 100%;
+  height: auto;
+}
+.trip-card h3 {
+  margin: 10px;
+}
+.trip-card p {
+  margin: 10px;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+.trip-table th, .trip-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+.trip-table th {
+  background-color: #f0f0f0;
+}
